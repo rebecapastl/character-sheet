@@ -1,6 +1,7 @@
 //imports
 //when in the client side, use import syntax
 import React from 'react';
+import Alert from 'react-bootstrap/Alert';
 
 //the App class extends the component class
 class App extends React.Component {
@@ -11,7 +12,7 @@ class App extends React.Component {
         //render the main components
         return <>
         
-            <h1>Hello Character Sheet</h1>
+            <Alert variant="success">Hello Character Sheet App</Alert>
             
         </>;
         
