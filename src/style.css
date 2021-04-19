@@ -1,0 +1,21 @@
+/* Header */
+
+.card{
+    border-radius: 0;
+    border:0;
+}
+
+.artist{
+    display:block;
+    font-size: 80%;
+    text-align:right;
+    margin-right: 1rem;
+}
+
+.header-h2{
+    text-align: center;
+    font-size:10rem;
+    opacity:75%;
+    -ms-transform: translateY(80%);
+    transform: translateY(80%);
+}

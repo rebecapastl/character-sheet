@@ -2,6 +2,7 @@
 //when in the client side, use import syntax
 import React from 'react';
 import Alert from 'react-bootstrap/Alert';
+import Header from './Header.js'
 
 //the App class extends the component class
 class App extends React.Component {
@@ -11,7 +12,7 @@ class App extends React.Component {
     render() {
         //render the main components
         return <>
-        
+            <Header />
             <Alert variant="success">Hello Character Sheet App</Alert>
             
         </>;
